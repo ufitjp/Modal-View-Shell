@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UFLKMLObject.h"
+#import "UFLDecalTableViewController.h"
 
-@interface UFLViewController : UIViewController
+@interface UFLViewController : UIViewController <UFLDecalTableViewControllerDelegate>
 
+@property (strong, nonatomic) UFLKMLObject *currentKMLObject;
+@property (strong, nonatomic) IBOutlet UILabel *kmlLabel;
+
+-(void)setCurrentKmlObject:(UFLKMLObject *)kmlObject;
 @end

@@ -21,6 +21,9 @@
 		086ABE6D19460862005BCB36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086ABE4F19460862005BCB36 /* UIKit.framework */; };
 		086ABE7519460862005BCB36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 086ABE7319460862005BCB36 /* InfoPlist.strings */; };
 		086ABE7719460862005BCB36 /* Modal_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABE7619460862005BCB36 /* Modal_ExampleTests.m */; };
+		086ABE8219460A04005BCB36 /* UFLDecalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABE8119460A04005BCB36 /* UFLDecalTableViewController.m */; };
+		086ABE8519460A8A005BCB36 /* UFLKMLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABE8419460A8A005BCB36 /* UFLKMLObject.m */; };
+		086ABE8819460B80005BCB36 /* UFLKMLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 086ABE8719460B80005BCB36 /* UFLKMLData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		086ABE7219460862005BCB36 /* Modal ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modal ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		086ABE7419460862005BCB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		086ABE7619460862005BCB36 /* Modal_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Modal_ExampleTests.m; sourceTree = "<group>"; };
+		086ABE8019460A04005BCB36 /* UFLDecalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFLDecalTableViewController.h; sourceTree = "<group>"; };
+		086ABE8119460A04005BCB36 /* UFLDecalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFLDecalTableViewController.m; sourceTree = "<group>"; };
+		086ABE8319460A8A005BCB36 /* UFLKMLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFLKMLObject.h; sourceTree = "<group>"; };
+		086ABE8419460A8A005BCB36 /* UFLKMLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFLKMLObject.m; sourceTree = "<group>"; };
+		086ABE8619460B80005BCB36 /* UFLKMLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFLKMLData.h; sourceTree = "<group>"; };
+		086ABE8719460B80005BCB36 /* UFLKMLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFLKMLData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,12 @@
 				086ABE5A19460862005BCB36 /* UFLAppDelegate.h */,
 				086ABE5B19460862005BCB36 /* UFLAppDelegate.m */,
 				086ABE5D19460862005BCB36 /* Main.storyboard */,
+				086ABE8019460A04005BCB36 /* UFLDecalTableViewController.h */,
+				086ABE8119460A04005BCB36 /* UFLDecalTableViewController.m */,
+				086ABE8619460B80005BCB36 /* UFLKMLData.h */,
+				086ABE8719460B80005BCB36 /* UFLKMLData.m */,
+				086ABE8319460A8A005BCB36 /* UFLKMLObject.h */,
+				086ABE8419460A8A005BCB36 /* UFLKMLObject.m */,
 				086ABE6019460862005BCB36 /* UFLViewController.h */,
 				086ABE6119460862005BCB36 /* UFLViewController.m */,
 				086ABE6319460862005BCB36 /* Images.xcassets */,
@@ -251,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				086ABE5C19460862005BCB36 /* UFLAppDelegate.m in Sources */,
+				086ABE8519460A8A005BCB36 /* UFLKMLObject.m in Sources */,
 				086ABE5819460862005BCB36 /* main.m in Sources */,
 				086ABE6219460862005BCB36 /* UFLViewController.m in Sources */,
+				086ABE8819460B80005BCB36 /* UFLKMLData.m in Sources */,
+				086ABE8219460A04005BCB36 /* UFLDecalTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
