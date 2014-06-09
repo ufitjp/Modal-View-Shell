@@ -40,7 +40,6 @@
     
     for (NSMutableDictionary *kmlData in [UFLKMLData allKMLs])
     {
-        NSLog(@"%@",kmlData);
         UFLKMLObject *kml = [[UFLKMLObject alloc] initWithData:kmlData];
         [self.kmls addObject:kml];
     }
@@ -95,7 +94,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UFLKMLObject *selectedObject = self.kmls[indexPath.row];
-    NSLog(@"%@",self.delegate);
     [self.delegate uFLDecalTableViewControllerDidSelect:self kml:selectedObject];        //[self setDecal];
 }
 
